@@ -3,15 +3,16 @@ font-family: 'Merriweather', serif; */
 body{
     margin: 0;
 }
-.happy-new-year img{
+/* .happy-new-year img{
     width: 100%;
-}
+} */
 .happy-new-year{
     width: 1200px;
     height: 600px;
     margin-top: 20px;
     margin-left: 100px;
     border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner\ Image.png');
     
 }
 .new-year-h4{
@@ -79,12 +80,112 @@ body{
     line-height: normal;
     }
 .mid-night-party{
+    gap: 39.17px;
     width: 1320px;
     height: 600px;
+    display: flex;
     border-radius: 5px;
     /* border: 5px solid red; */
     margin: 100px auto;
     /* background-image: url('resources/Vectorrr.png'); */
     background-size: cover;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+}
+.mid-night-party h1{
+    width: 642px;
+    height: 176px;
+    margin-bottom: -31px;
+    padding: 10px 10px 10px 0px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.party-description{
+    width: 697px;
+    height: 60px;
+    padding: 5px 5px 5px 0;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.join-now{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 24px;
+    margin-left: -457px;
+}
+.content-join-now{
+    margin: 73px auto auto 126px;
+}
+.content-2024-img{
+    margin: 76.74px 108.67px 67.23px 0;
+}
+.location{
+    /* border: 1px solid black; */
+    border: 0;
+    /* position: relative; */
+    border-radius: 5px;
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.location h2{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    /* margin-top: 220px; */
+}
+.location-highlight{
+    color: red;
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 221px;
+    border: 0;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
+.location-column{
+    width: 45%;
+    /* position: relative; */
+    /* margin: 100px 100px; */
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
 }
