@@ -202,7 +202,37 @@ body{
 .portfolio table, td{
     border: 1px solid black;
     border-style: none;
-    padding: 5px 5px 5px 0;
+    padding: 4px 4px 4px 0;
+}
+.portfolio table td .yellow-bag:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
+}
+.portfolio table td .curi:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
+}
+.portfolio table td .black-bag:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
+}
+.portfolio table td .red-hill:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
+}
+.portfolio table td .red-white-hill:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
+}
+.portfolio table td .sunglass:hover{
+    border: 5px solid rgb(250, 119, 82);
+    border-radius: 16px;
+
 }
 .section-tittle{
     color: #F00;
@@ -266,6 +296,11 @@ body{
     padding: 10px;
     justify-content: center;
     align-items: center;
+    display: inline;
+}
+.newsletter-column img{
+    display: block;
+    margin-left: 366px;
 }
 .newsletter-column input[type="email"]{
     color: rgba(7, 2, 17, 0.30);
